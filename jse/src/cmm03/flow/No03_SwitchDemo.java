@@ -11,9 +11,9 @@ public class No03_SwitchDemo {
 		char grade = 0; 
 		//변수는 변수끼리 선언하는 게 좋음 ! 밑에하다가 입력한거 까무그면 올라와서 입력하라
 		if(avg >= 70){
-			msg = "합격입니다.";
+			msg = "합격";
 		}else {
-			msg = "불합격입니다.";
+			msg = "불합격";
 		}
 		
 		switch (avg/10) {
